@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: action-firewall
+    env: python
+    plan: free
+    buildCommand: "true"
+    startCommand: "python3 firewall.py"
